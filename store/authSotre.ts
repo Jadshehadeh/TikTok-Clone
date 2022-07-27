@@ -1,7 +1,6 @@
 import create from "zustand";
 import { persist } from 'zustand/middleware';
 import axios from "axios";
-import { API } from "../config";
 
 const authStore = (set: any) =>  ({
       userProfile: null,

@@ -1,5 +1,4 @@
 import sanityClient from '@sanity/client';
-import { NEXT_PUBLIC_SANITY_TOKEN } from '../config';
 
 export const client = sanityClient({
   projectId: 'losjywfq',
