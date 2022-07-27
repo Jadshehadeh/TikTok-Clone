@@ -29,9 +29,9 @@ export const getServerSideProps = async ({
 }) => {
   let response = null;
   if (!topic) {
-    response = await axios.get(`${API}/api/post`);
+    response = await axios.get(`${process.env.NEXT_PUBLIC_BASE_URL}/api/post`);
   } else {
-    response = await axios.get(`${API}/api/discover/${topic}`);
+    response = await axios.get(`${process.env.NEXT_PUBLIC_BASE_URL}/api/discover/${topic}`);
   }
 
   return {

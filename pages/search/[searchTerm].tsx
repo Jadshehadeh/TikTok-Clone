@@ -101,7 +101,7 @@ export const getServerSideProps = async ({
 }: {
   params: { searchTerm: string };
 }) => {
-  const res = await axios.get(`${API}/api/search/${searchTerm}`);
+  const res = await axios.get(`${process.env.NEXT_PUBLIC_BASE_URL}/api/search/${searchTerm}`);
   return {
     props: { videos: res.data },
   };

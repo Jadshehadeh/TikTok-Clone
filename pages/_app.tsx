@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   if (isSSR) return null;
 
   return (
-    <GoogleOAuthProvider clientId={NEXT_PUBLIC_GOOGLE_API_TOKEN}>
+    <GoogleOAuthProvider clientId={`${process.env.NEXT_PUBLIC_GOOGLE_API_TOKEN}`}>
       <div className=" overflow-hidden ">
         {router.route !== "/detail/[id]" && (
           <div className=" fixed w-full z-50 backdrop-blur-xl bg-white-30">

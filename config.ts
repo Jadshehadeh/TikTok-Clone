@@ -1,3 +1,3 @@
 export const NEXT_PUBLIC_GOOGLE_API_TOKEN = '257950221063-6jtk3gs73r0muevpq05icsfa670lf2c7.apps.googleusercontent.com';
-export const API = 'http://localhost:3000';
+export const API = 'https://tik-tok-clone-amber.vercel.app/';
 export const NEXT_PUBLIC_SANITY_TOKEN = 'skKACIePdRnh692kPiUvRPazLdx0VBKWlPW7dMQ4Ku5lfiKpHPjdx1M0cvPejw8Z9d1QgfnT1wHVRhwTsK50NfQU9h8GPAXD0DF0yE2rRof0MV0E5NhsykTKN4a95AGrvC2zkVYo5O5P10ktirn3mf0QWfDmZ8LTBsx1slWCSLymHtX1o2Od'
